@@ -1,0 +1,51 @@
+h2{
+	padding-left:10px;
+        	
+}
+h1{
+	padding-left:10px;
+        background-color:#0000ff;
+       color:#ffffff;	
+}
+
+.left{
+	width:30%;
+	float:left;
+	color:#ff0000;
+	background-color: grey;
+	height:1140px;
+	
+}
+
+.right{
+	width: 70%;
+	float: right;
+	background-color: yellow;
+	height: auto;
+}
+
+ul{
+	letter-spacing: 2px;
+}
+
+ul li{
+	margin-left:-20px;
+	
+}
+
+ul li a{
+	
+	color: red;
+}
+
+ul li a:hover{
+	color: orange;
+	
+}
+
+.right p{
+	color:green;
+	padding:10px;
+	
+}
+
