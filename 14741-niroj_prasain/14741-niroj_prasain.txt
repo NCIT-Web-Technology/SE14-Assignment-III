@@ -1,0 +1,69 @@
+
+<!doctype html>
+<html>
+	<head>
+	<style>
+	#header
+	{
+		background-color:blue;
+		color:white;
+		height:100px;
+		text-align:center;
+		padding-top:10px;
+    }
+
+	#left
+	{
+		background-color:black;
+		height:540px;
+		width:25%;
+		float:left;	
+		color:red;
+	}
+
+	#right
+	{
+		background-color:white;
+		float:right;
+		height:540px;
+		width:75%;
+	}
+
+	
+	a:link,a:visited
+	{
+		color:red;
+		display: block;
+		font-weight: bold;
+		text-align: center;
+		padding: 4px;
+	}
+
+	p
+	{
+		color:hotpink;
+	}
+	
+	a:hover
+	{
+		color:orange;
+	}
+	</style>
+	<title>html with css</title>
+	</head>
+
+		<body>
+			<div id="header">
+			<h1> Top Universities in Nepal</h1></div>
+		<div id="left">
+			<h2 align="center">links</h2>
+			<a href="http://www.pu.edu.np" target="new" align="center">Pokhera Univerity</a><br>
+			<a href="http://tribhuvan-university.edu.np/" target="new">Tribhuvan University</a>
+		</div>
+
+		<div id="right">
+			<h1 align="center">Universities In Nepal</h1>
+			<p align="center"> In Nepal there is 6-10 universities. Among them most popular universities is Trivhuban Universitiy and Pokhera universities. 		After that there comes Kathmandu Univesities which is sole university ehich does have other college under its affilation. Other universities are 		Purbanchal Universitiy and Lumbini university which are still in its name and fame making process as this universities ar no well recognized like 		Tribhuvan universities, Pokhera university and Pokhara univeristy. </p>
+		</div>
+	</body>
+</html>

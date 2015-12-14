@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	#header
+		{
+			background-color:blue;
+			color:white;
+			height:100px;
+			text-align:center;
+			padding-top:10px;
+		}
+
+	#side
+		{
+			background-color:grey;
+			height:540px;
+			width:20%;
+			float:left;	
+			color:red;
+		}
+
+	#main
+		{
+			background-color:yellow;
+			float:right;
+			height:540px;
+			width:80%;
+
+		}
+		A:link,A:visited
+			{
+				color: red;
+				display: block;
+				font-weight: bold;
+				text-align: center;
+				padding: 3px;
+			
+			}
+		A:hover
+			{
+				color:orange;
+			}
+
+
+
+
+		p
+		{
+			color:red;
+		}
+</style>
+<title>CSS</title>
+</head>
+
+<body>
+
+	<div id="header">
+	<h1>University in Nepal</h1>
+	</div>
+
+<div id="side">
+	<h3 align="center">Links</h3>
+	<a href="http://tribhuvan-university.edu.np/" target="new">Tribhuvan University</a><br>
+	<a href="http://www.pu.edu.np/" target="new">Pokhara University</a><br>
+	<a href="http://puexam.edu.np/ " target="new">Purbanchal University</a>
+</div>
+
+<div id="main">
+	<h1 align="center">About Universities<h1>
+	<p align="center"> There are many universities in Kathmandu valley among which two are the main universities which are fairly popular than other. Those universities are Tribhuvan university and Pokhara university. Tribhuvan-university is the main university which governs all other universities and also over sees other universities work rate.</p>
+
+</div>
+</body>
+</html>
