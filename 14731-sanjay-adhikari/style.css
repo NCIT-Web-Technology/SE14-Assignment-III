@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin:0;
+	padding:0;
+	background:#FFFFFF;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+*
+{
+	margin:0;
+	padding:0;
+}
+li
+{
+	list-style:none;
+	display:inline;
+}
+#wrapper
+{
+	width:100%;
+	margin:0 auto;
+}
+
+.topmenu
+{
+	height:40px;
+}
+.topmenu a
+{
+	float:left;
+	color:#FFF;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:65px 30px 0 0; /* top:bottom, left:right*/
+}
+.topmenu a:hover,.topmenu a.active
+{
+	color:#999;
+	font-weight:bold;
+}
+
+header
+{
+	height:140px;
+	background-color:#00F;
+}
+
+header a.img
+ {
+	background: url(image/NasshLogo100x100.png) no-repeat;
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin:20px 160px 0 48px;
+ }
+
+#banner
+{
+	height:700px;
+	
+	
+}
+
+.banner_left_col {
+	width:25%;
+	background-color:#CC0;
+	height:700px;
+	float: left;
+	border:thick #39C;
+}
+
+.banner_left_col h4
+{
+	padding: 10px 10px;
+	font-size:18px;
+}
+
+.banner_left_col a
+{
+	padding: 10px 10px 25px 10px;
+	font-size:18px;
+	color:#F00;
+}
+
+.banner_left_col a:hover,.banner_left_col a.active
+{
+	color:#009;
+}
+
+
+.banner_right_col {
+	width:75%;
+	background-color:#9CF;
+	height:700px;
+	float: right;
+}
+
+.banner_right_col h2
+{
+	color: black;
+	padding-left: 25px 0 0 25px;
+}
+.banner_right_col img
+{	
+	
+	float:left;
+	margin:20px 20px 25px 20px;
+	width:952px;
+	height:252px;
+	
+}
+.banner_right_col p
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	padding:5px;
+	text-align:justify;
+	margin-right:23px;
+	margin-left:20px;
+}
+
+footer
+{
+	height:140px;
+	background-color:#00F;
+}
+footer img
+{
+	float:right;
+	margin:30px 20px 0 0;
+}
+
+footer spam
+{
+	word-spacing:30px;
+}
