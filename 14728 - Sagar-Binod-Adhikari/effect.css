@@ -1,0 +1,45 @@
+h1{
+	padding-left:10px;	
+}
+
+.left{
+	width:30%;
+	float:left;
+	color:red;
+	background-color: grey;
+	height:580px;
+	position: fixed;
+}
+
+.right{
+	width: 70%;
+	float: right;
+	background-color: yellow;
+	height: auto;
+}
+
+ul{
+	list-style-type: none;
+	letter-spacing: 2px;
+}
+
+ul li{
+	margin-left:-20px;
+	text-transform: uppercase;
+}
+
+ul li a{
+	text-decoration: none;
+	color: red;
+}
+
+ul li a:hover{
+	color: orange;
+	text-decoration: none;
+}
+
+.right p{
+	color:green;
+	padding:10px;
+	text-align: justify;
+}
