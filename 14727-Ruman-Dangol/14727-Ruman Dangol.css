@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-size: 12px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.front{
+	background-color: blue;
+	color: white;
+	font-size: 30px;
+	height: 40px;
+	padding-top: 10px;
+}
+.left{
+	background-color: gray;
+	color: green;
+	font-size: 15px;
+	float: left;
+	width: 20%;
+	height: 2500px;
+	padding-top: 10px;
+
+}
+.right{
+	background-color: yellow;
+	color: brown;
+	float: right;
+	width: 80%;
+	height: 2500px;
+	font-size: 15px;
+	padding-top: 10px;
+	
+
+}
+a:link,a:visited{
+	color: #ee1111;
+	display: block;
+	padding: 3px;
+}
+a:hover{
+	color: orange;
+}
