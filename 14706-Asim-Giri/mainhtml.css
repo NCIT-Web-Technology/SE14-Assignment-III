@@ -1,0 +1,42 @@
+.header{
+ background-color: green;
+ color: white;
+ text-align: center;
+ font-family: Corbel;
+ font-size: 20px;
+ padding: 5px;	
+}
+
+.nav{
+	background-color: #eeeeee;
+	line-height: 60px;
+	height: 500px;
+	width: 200px;
+	padding: 5px; 
+	float: left;
+	font-family: Arial;
+	text-align: center;
+	color: green;
+	font-weight: bold;
+}
+
+.content{
+	width: 60%;
+	float: left;
+	padding: 10px;
+}
+
+#tu{
+	font-family: Corbel;
+	color: green;
+}
+
+#tup{
+	font-family: Calibri;
+
+}
+
+a{
+	text-decoration: none;
+	color: green;
+}
