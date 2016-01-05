@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Javascript Example</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<h1 id="colorchange" ><center></b>
+	Javascript Examples</b></center></h1>
+
+	<input type="button" value="Change color"  onclick=" window.confirm('Do you really want to change the color?'),toogle(h)" >
+
+	
+		<h2>
+			<u><b>My form:</b></u>
+		</h2>
+	
+		<h4>
+			Name:
+			<input type="text" name="name" value="" id="name">
+		</h4>
+				<h4>
+			Age:
+			<input type="number" name="age" value="" id="age">
+		</h4>
+				<h4>
+			Address:
+			<input type="text" name="address"  id="address" >
+		</h4>
+		<input type="button" name="button2" value="Submit" id="submit" onclick="check()">
+	
+
+
+	<script type="text/javascript">
+	var h=document.getElementById("colorchange");
+	var n=document.getElementById("name");
+	var a=document.getElementById("age");
+	var ad=document.getElementById("address");
+	
+
+	flag= false;
+	function toogle(h)
+	{
+		
+		if (flag == false) 
+		{
+			h.style.color ="#ff0000";
+			flag = true;
+		}
+		else
+		{
+			h.style.color = "#0000ff";
+			flag = false;
+		}
+	}
+	function check()
+	{
+		if (n.value.length==0 && a.value.length==0)
+		{
+			
+			alert(" Please.. Enter both name and age");
+			
+		}
+		else if(n.value.length==0)
+		{
+			alert(" Please.. Enter your name");
+		}
+		else if(n.value.length<=2)
+		{
+			alert(" Name must be three characters long");
+		}
+		else if (a.value.length==0)
+		{
+			alert("Please.. Enter your age");
+		}
+		else if(a.value<18)
+		{
+			alert(" Walk away kid. You must be 18 years old to enter here");
+		}
+		else if(ad.value.length==0)
+		{
+			alert(" Please.. Enter your address");
+		}
+		else if(ad.value.length<=2)
+		{
+			alert(" Address must be three characters long");
+		}
+		
+		else
+		{
+			window.confirm("Is all the data correct?");
+
+		}
+	}
+
+
+	</script>
+
+
+</body>
+</html>
